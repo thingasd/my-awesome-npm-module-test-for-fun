@@ -1,5 +1,9 @@
 {
-  "name": "my-awesome-npm-thingasd-test",
+  "name": "@thingasd/my-awesome-npm-thingasd-test",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thingasd/my-awesome-npm-module-test-for-fun.git"
+  },
   "version": "1.0.17",
   "description": "A nice greeter",
   "main": "lib/index.js",
@@ -9,7 +13,7 @@
     "Greeter"
   ],
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry":"https://npm.pkg.github.com/@thingasd"
   },
   "author": "thingasd",
   "scripts": {
@@ -35,9 +39,5 @@
     "tslint": "^6.1.3",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^4.8.4"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/thingasd/my-awesome-npm-module-test-for-fun.git"
   }
 }
