@@ -1,5 +1,5 @@
 {
-  "name": "@thingasd/my-awesome-npm-thingasd-test",
+  "name": "my-awesome-npm-thingasd-test",
   "repository": {
     "type": "git",
     "url": "https://github.com/thingasd/my-awesome-npm-module-test-for-fun.git"
@@ -12,9 +12,6 @@
     "Hello",
     "Greeter"
   ],
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com/@thingasd"
-  },
   "author": "thingasd",
   "scripts": {
     "build": "tsc",
